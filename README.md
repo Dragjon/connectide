@@ -262,3 +262,15 @@ board.show()
 board.parse("0000000000000000000000000000000000000000012")
 board.perfT(7)
 ```
+
+### Perft test
+```
+info string perft depth 1 time 0 nodes 7 nps 7000000000
+info string perft depth 2 time 2 nodes 49 nps 16381
+info string perft depth 3 time 5 nodes 343 nps 62905
+info string perft depth 4 time 17 nodes 2401 nps 137464
+info string perft depth 5 time 101 nodes 16807 nps 165664
+info string perft depth 6 time 678 nodes 117649 nps 173408
+info string perft depth 7 time 4826 nodes 823536 nps 170629
+info string perft depth 8 time 34460 nodes 5673234 nps 164630
+```
